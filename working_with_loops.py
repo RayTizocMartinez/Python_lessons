@@ -7,3 +7,6 @@ while not done:
     else:
         color = input("whats your favorite color: ")
         age = input("how old are you: ")
+        question = input('do you want to add someone else: ' )
+    if question == 'no':
+        done = True
