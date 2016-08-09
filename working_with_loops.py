@@ -17,3 +17,4 @@ for x in people:
     print('Name: ' + x['name'])
     print('Favorite Color: ' + x['color'])
     print('Age: ' + x['age'])
+    print("----------------------------")
