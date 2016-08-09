@@ -14,6 +14,7 @@ while not done:
     people.append({'name': name, 'color': color, 'age': age})
 
 for x in people:
+    print("----------------------------")
     print('Name: ' + x['name'])
     print('Favorite Color: ' + x['color'])
     print('Age: ' + x['age'])
