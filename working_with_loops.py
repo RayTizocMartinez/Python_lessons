@@ -1,4 +1,5 @@
 done = False
+people = []
 
 while not done:
     name = input('what your name is: ')
@@ -10,3 +11,10 @@ while not done:
         question = input('do you want to add someone else: ' )
     if question == 'no':
         done = True
+    people.append({'name': name, 'color': color, 'age': age})
+
+#print(people)
+for x in people:
+    print('Name: ' + x['name'])
+    print('Favorite Color: ' + x['color'])
+    print('Age: ' + x['age'])
