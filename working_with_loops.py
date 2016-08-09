@@ -13,7 +13,6 @@ while not done:
         done = True
     people.append({'name': name, 'color': color, 'age': age})
 
-#print(people)
 for x in people:
     print('Name: ' + x['name'])
     print('Favorite Color: ' + x['color'])
